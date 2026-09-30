@@ -12,7 +12,11 @@ declare global {
 
 jest.mock('../nats-wrapper');
 
+<<<<<<< HEAD
 process.env.STRIPE_KEY = 'mock_stripe_key';
+=======
+process.env.STRIPE_KEY = 'you api key';
+>>>>>>> ae2641d (final commit)
 
 let mongo: any;
 
